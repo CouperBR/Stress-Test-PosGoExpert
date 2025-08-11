@@ -8,9 +8,9 @@ Sistema CLI para realizar testes de carga em serviços web.
 
 | Flag | Descrição | Obrigatório | Padrão |
 |------|-----------|-------------|---------|
-| `--url` | URL do serviço a ser testado | ✅ | - |
-| `--requests` | Número total de requisições | ❌ | 100 |
-| `--concurrency` | Chamadas simultâneas | ❌ | 10 |
+| `--url` | URL do serviço a ser testado | Y | - |
+| `--requests` | Número total de requisições | N | 100 |
+| `--concurrency` | Chamadas simultâneas | N | 10 |
 
 ### Executando Localmente
 
